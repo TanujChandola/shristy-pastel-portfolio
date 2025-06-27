@@ -34,7 +34,7 @@ const Contact = () => {
                 asChild
                 className="bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105 shadow-lg border-0"
               >
-                <a href="mailto:shristy@example.com">
+                <a href="mailto:im.shristysingh@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Send Email
                 </a>
