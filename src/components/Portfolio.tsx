@@ -32,7 +32,7 @@ const Portfolio = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4 text-gradient animate-fade-in">
             My Work
           </h2>
-          <p className="text-muted-foreground text-lg animate-fade-in">
+          <p className="text-gray-600 text-lg animate-fade-in">
             Real projects, real results
           </p>
         </div>
@@ -45,20 +45,20 @@ const Portfolio = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`View ${project.title} PDF`}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-103 animate-fade-in-up group border border-blush-100 block"
+              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-103 animate-fade-in-up group border border-gray-200 block"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="h-full flex flex-col">
-                <h3 className="font-playfair text-xl font-semibold mb-3 text-foreground line-clamp-2">
+                <h3 className="font-playfair text-xl font-semibold mb-3 text-gray-800 line-clamp-2">
                   {project.title}
                 </h3>
                 
-                <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
+                <p className="text-gray-600 leading-relaxed mb-6 flex-grow">
                   {project.description}
                 </p>
                 
                 <div className="mt-auto">
-                  <span className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors group-hover:translate-x-1 transform duration-300">
+                  <span className="inline-flex items-center text-rose-600 hover:text-rose-700 font-medium transition-colors group-hover:translate-x-1 transform duration-300">
                     View PDF
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </span>
