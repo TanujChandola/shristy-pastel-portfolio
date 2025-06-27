@@ -39,9 +39,13 @@ const Portfolio = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
-            <div
+            <a
               key={index}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-103 animate-fade-in-up group border border-blush-100"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View ${project.title} PDF`}
+              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-103 animate-fade-in-up group border border-blush-100 block"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="h-full flex flex-col">
@@ -54,19 +58,13 @@ const Portfolio = () => {
                 </p>
                 
                 <div className="mt-auto">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`View ${project.title} PDF`}
-                    className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors group-hover:translate-x-1 transform duration-300"
-                  >
+                  <span className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors group-hover:translate-x-1 transform duration-300">
                     View PDF
                     <ArrowRight className="ml-2 h-4 w-4" />
-                  </a>
+                  </span>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
