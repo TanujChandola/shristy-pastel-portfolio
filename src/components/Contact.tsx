@@ -48,7 +48,7 @@ const Contact = () => {
       <footer className="mt-20 pt-8 border-t border-gray-200">
         <div className="text-center">
           <p className="text-gray-600">
-            © 2024 Shristy Singh. Crafted with passion for impactful storytelling.
+            © 2025 Tanuj Chandola. Crafted with passion for impactful storytelling.
           </p>
         </div>
       </footer>
