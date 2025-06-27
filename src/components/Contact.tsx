@@ -34,7 +34,7 @@ const Contact = () => {
                 asChild
                 className="bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105 shadow-lg border-0"
               >
-                <a href="mailto:im.shristysingh@gmail.com">
+                <a href="mailto:shristy@example.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Send Email
                 </a>
@@ -48,7 +48,7 @@ const Contact = () => {
       <footer className="mt-20 pt-8 border-t border-gray-200">
         <div className="text-center">
           <p className="text-gray-600">
-            © 2025 Tanuj Chandola. Crafted with passion for impactful storytelling.
+            © 2024 Shristy Singh. Crafted with passion for impactful storytelling.
           </p>
         </div>
       </footer>
