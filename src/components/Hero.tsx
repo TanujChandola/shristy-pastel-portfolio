@@ -1,17 +1,15 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section id="hero" className="min-h-screen flex items-center justify-center px-4 pt-20">
+  return <section id="hero" className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
@@ -26,19 +24,12 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                onClick={() => scrollToSection('portfolio')}
-                className="bg-gradient-blush hover:opacity-90 text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
-              >
+              <Button onClick={() => scrollToSection('portfolio')} className="bg-gradient-blush hover:opacity-90 text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105 shadow-lg">
                 See My Work
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               
-              <Button
-                onClick={() => scrollToSection('contact')}
-                variant="outline"
-                className="border-2 border-rose-400 text-rose-500 hover:bg-rose-500 hover:text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105"
-              >
+              <Button onClick={() => scrollToSection('contact')} variant="outline" className="border-2 border-rose-400 text-rose-500 hover:bg-rose-500 hover:text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105">
                 Contact Me
               </Button>
             </div>
@@ -48,11 +39,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end animate-scale-in">
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Shristy Singh - Professional headshot"
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Shristy Singh - Professional headshot" className="w-full h-full object-cover" src="/lovable-uploads/27984fb6-58d9-4b6f-a9d5-83649d217ee5.jpg" />
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-blush rounded-full opacity-20"></div>
               <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-accent rounded-full opacity-30"></div>
@@ -60,8 +47,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
