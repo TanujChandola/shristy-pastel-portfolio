@@ -37,7 +37,7 @@ const Hero = () => {
               <Button
                 onClick={() => scrollToSection('contact')}
                 variant="outline"
-                className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105"
+                className="border-2 border-rose-400 text-rose-500 hover:bg-rose-500 hover:text-white px-8 py-3 rounded-2xl font-medium transition-all duration-300 hover:scale-105"
               >
                 Contact Me
               </Button>
