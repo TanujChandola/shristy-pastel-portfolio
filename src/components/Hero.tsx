@@ -1,5 +1,7 @@
+
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -9,7 +11,9 @@ const Hero = () => {
       });
     }
   };
-  return <section id="hero" className="min-h-screen flex items-center justify-center px-4 pt-20">
+
+  return (
+    <section id="hero" className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
@@ -19,7 +23,7 @@ const Hero = () => {
               Hi, I'm <span className="text-gradient">Shristy Singh</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
+            <p className="text-xl md:text-2xl text-rose-600 mb-8 font-light">
               Email Marketer • PR Writer • Content Creator • Copywriter
             </p>
             
@@ -47,6 +51,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;

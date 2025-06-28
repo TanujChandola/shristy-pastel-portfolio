@@ -10,14 +10,14 @@ const About = () => {
           
           <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg animate-fade-in-up">
             <div className="prose prose-lg max-w-none">
-              <p className="text-foreground leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-6">
                 I'm a passionate content writer and email marketer with a flair for storytelling and a results‑driven mindset. 
-                I completed my <strong>B.A. in English Honours from Graphic Era Hill University (2022–2025)</strong> and am pursuing 
-                my <strong>Master's in English from Uttarakhand Open University</strong>.
+                I completed my <strong className="text-rose-600">B.A. in English Honours from Graphic Era Hill University (2022–2025)</strong> and am pursuing 
+                my <strong className="text-rose-600">Master's in English from Uttarakhand Open University</strong>.
               </p>
               
-              <p className="text-foreground leading-relaxed">
-                At <strong>Elleven Media</strong>—a pan‑India celebrity & artist management platform—I crafted PR articles, 
+              <p className="text-gray-700 leading-relaxed">
+                At <strong className="text-rose-600">Elleven Media</strong>—a pan‑India celebrity & artist management platform—I crafted PR articles, 
                 blog posts, and email campaigns for high‑profile personalities. My work blends creativity with marketing 
                 strategy to drive clicks, conversions, and engagement.
               </p>

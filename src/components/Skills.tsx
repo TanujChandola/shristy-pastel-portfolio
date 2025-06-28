@@ -32,7 +32,7 @@ const Skills = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4 text-gradient animate-fade-in">
             What I Do
           </h2>
-          <p className="text-muted-foreground text-lg animate-fade-in">
+          <p className="text-rose-500 text-lg animate-fade-in">
             Expertise that drives results across multiple channels
           </p>
         </div>
@@ -49,11 +49,11 @@ const Skills = () => {
                   <skill.icon className="h-8 w-8 text-white" />
                 </div>
                 
-                <h3 className="font-playfair text-xl font-semibold mb-3 text-foreground">
+                <h3 className="font-playfair text-xl font-semibold mb-3 text-gray-800">
                   {skill.title}
                 </h3>
                 
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-gray-600 leading-relaxed">
                   {skill.description}
                 </p>
               </div>

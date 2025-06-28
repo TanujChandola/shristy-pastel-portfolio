@@ -11,7 +11,7 @@ const Contact = () => {
             Let's Work Together
           </h2>
           
-          <p className="text-gray-700 text-lg mb-12 animate-fade-in">
+          <p className="text-rose-500 text-lg mb-12 animate-fade-in">
             Ready to elevate your content strategy? Let's discuss how I can help drive your marketing goals.
           </p>
           
@@ -25,7 +25,7 @@ const Contact = () => {
                 <h3 className="font-playfair text-2xl font-semibold mb-4 text-gray-800">
                   Get In Touch
                 </h3>
-                <p className="text-gray-700 mb-6">
+                <p className="text-gray-600 mb-6">
                   I'm always excited to discuss new opportunities and creative projects.
                 </p>
               </div>

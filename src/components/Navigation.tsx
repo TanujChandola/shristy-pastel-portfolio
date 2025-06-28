@@ -33,31 +33,31 @@ const Navigation = () => {
           <div className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('hero')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-gray-700 hover:text-rose-500 transition-colors font-medium"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-gray-700 hover:text-rose-500 transition-colors font-medium"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-gray-700 hover:text-rose-500 transition-colors font-medium"
             >
               Skills
             </button>
             <button 
               onClick={() => scrollToSection('portfolio')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-gray-700 hover:text-rose-500 transition-colors font-medium"
             >
               Portfolio
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-gray-700 hover:text-rose-500 transition-colors font-medium"
             >
               Contact
             </button>

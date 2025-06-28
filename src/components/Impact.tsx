@@ -67,7 +67,7 @@ const Impact = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4 text-gradient animate-fade-in">
             My Impact in Numbers
           </h2>
-          <p className="text-muted-foreground text-lg animate-fade-in">
+          <p className="text-rose-500 text-lg animate-fade-in">
             Proven results that speak for themselves
           </p>
         </div>
@@ -134,16 +134,16 @@ const StatCard = ({ stat, isVisible, delay }: StatCardProps) => {
         <div className="text-3xl md:text-4xl font-bold text-gradient font-playfair">
           {count.toFixed(stat.value % 1 !== 0 ? 1 : 0)}{stat.suffix}
         </div>
-        <div className="text-sm text-muted-foreground font-medium mt-1">
+        <div className="text-sm text-rose-500 font-medium mt-1">
           {stat.benchmark}
         </div>
       </div>
       
-      <h3 className="font-semibold text-foreground mb-2">
+      <h3 className="font-semibold text-gray-800 mb-2">
         {stat.label}
       </h3>
       
-      <p className="text-sm text-muted-foreground leading-relaxed">
+      <p className="text-sm text-gray-600 leading-relaxed">
         {stat.description}
       </p>
     </div>

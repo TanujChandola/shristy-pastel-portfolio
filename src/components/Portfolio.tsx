@@ -32,7 +32,7 @@ const Portfolio = () => {
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4 text-gradient animate-fade-in">
             My Work
           </h2>
-          <p className="text-gray-700 text-lg animate-fade-in">
+          <p className="text-rose-500 text-lg animate-fade-in">
             Real projects, real results
           </p>
         </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                   {project.title}
                 </h3>
                 
-                <p className="text-gray-700 leading-relaxed mb-6 flex-grow">
+                <p className="text-gray-600 leading-relaxed mb-6 flex-grow">
                   {project.description}
                 </p>
                 
